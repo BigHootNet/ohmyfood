@@ -1,0 +1,249 @@
+.plate_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.plate_bg_holder {
+    min-width: 100vw;
+    max-height: 60vw;
+}
+
+.plate_bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plate_entries_bg {
+    margin-top: -5vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 100vw;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color: #F6F6F6;
+}
+
+.plate_entries_holder {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.plate_title_container {
+    margin-top: 8vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.plate_title {
+    font-family: 'Shrikhand', cursive;
+    font-size: 29px;
+    padding-left: 5vw;
+    width: 75%;
+}
+
+.plate_title_container i {
+    text-align: center;
+    width: 25%;
+    font-size: 22px;
+}
+
+.plate_subtitles {
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: -15vw;
+
+    background-image: linear-gradient(#99E2D0 0 0);
+    background-position: left center;
+    /*move the line*/
+    background-size: 9vw 3px;
+    /*background size length and height*/
+    background-repeat: no-repeat;
+    margin-top: 8vw;
+    padding-bottom: 8vw;
+    /*position */
+}
+
+
+.section_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+    border-radius: 20px;
+    width: 87vw;
+    align-self: center;
+}
+
+.plate_entries {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 5vw;
+    border-radius: 20px;
+    height: 18vw;
+    box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+
+}
+
+.plate_entries_titles_holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
+    margin-left: 5vw;
+    align-items: center;
+    align-content: center;
+}
+
+.plate_entries_titles {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+.plate_entries_subtitles {
+    font-size: 14px;
+    font-weight: lighter !important;
+}
+
+.price_holder {
+    display: flex;
+    height: 100%;
+    width: 5%;
+    justify-content: right;
+    align-items: flex-end;
+    margin-bottom: 7vw;
+    margin-right: 4vw;
+}
+
+.order_button {
+    width: 35vw;
+    background: linear-gradient(to bottom, #ff79d9 5%, #9256dc 100%);
+    background-color: #ff79d9;
+    border-radius: 28px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 11px #2f6627;
+    margin-bottom: 10vw;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    main {
+        width: 100vw;
+    }
+
+    .plate_container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around
+    }
+
+    .plate_bg_holder {
+        max-height: 23vw;
+    }
+
+    .plate_bg {
+        max-height: 23vw;
+    }
+
+    .plate_title_container {
+        height: 10vw;
+        margin-top: 0;
+        justify-content: center
+    }
+
+    .plate_title_container i {
+        width: 7%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .plate_title {
+        display: flex;
+        margin-bottom: 3vw;
+        padding-left: 0;
+        width: auto;
+        height: 100%;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+
+    .plate_entries_bg {
+        margin-top: -3vw;
+        width: 70vw;
+        position: relative;
+    }
+
+    .plate_entries {
+        height: 5vw;
+        width: 65%;
+        margin-bottom: 2vw;
+    }
+
+    .plate_entries_titles_holder {
+        margin-left: 3vw;
+    }
+
+    .plate_entries_titles {
+        margin-bottom: 0;
+    }
+
+    .section_container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+
+
+    .plate_subtitles {
+        margin-left: 0;
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 2vw;
+        background-size: 40px 3px;
+        margin-top: 1vw;
+    }
+
+    .section_title {
+        width: 65%;
+    }
+
+    .price_holder {
+        margin-bottom: 2vw;
+        margin-right: 1vw;
+    }
+
+    .order_button {
+        width: 10vw;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+}
