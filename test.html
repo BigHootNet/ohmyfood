@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouton à glissière</title>
+    <style>
+        /* Style de base pour le bouton */
+        .button-container {
+            position: relative;
+            width: 200px; /* Largeur du conteneur du bouton */
+            height: 50px; /* Hauteur du bouton */
+            overflow: hidden; /* Cache le contenu débordant */
+        }
+
+        .slider-button {
+            width: 50px; /* Largeur initiale du bouton */
+            height: 100%;
+            background-color: #0074d9;
+            color: #fff;
+            text-align: center;
+            line-height: 50px; /* Centrage vertical du texte */
+            cursor: pointer;
+        }
+
+        /* Style de l'encart à afficher */
+        .slide-out {
+            position: absolute;
+            top: 0;
+            right: -50px; /* Déplace l'encart hors de la vue à droite */
+            width: 50px; /* Largeur initiale de l'encart */
+            height: 100%;
+            background-color: #0074d9;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            transition: right 0.3s ease; /* Animation du déplacement vers la gauche */
+        }
+
+        /* Lorsque le bouton est cliqué */
+        .slider-button:checked + .button-container .slider-button {
+            width: 0; /* Réduit la largeur du bouton à zéro */
+        }
+
+        .slider-button:checked + .button-container .slide-out {
+            right: 0; /* Déplace l'encart vers la gauche */
+        }
+
+        .body {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <label class="button-container">
+        <input type="checkbox" class="slider-button">
+        <div class="slide-out">Contenu à glisser</div>
+        <div class="slider-button">Glisser</div>
+    </label>
+</body>
+</html>
