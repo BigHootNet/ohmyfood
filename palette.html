@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="style.css" rel="stylesheet" />
-    <link href="stylemenu.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="stylemenu.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -20,13 +20,13 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/logo/ohmyfood.png"></img></a>
+            <a href="index.html"><img src="images/logo/ohmyfood.png" alt="logo OhMyFood"></a>
         </div>
     </header>
     <main>
         <div class="plate_container">
             <div class="plate_bg_holder">
-                <img class="plate_bg" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"></img>
+                <img class="plate_bg" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image restaurant  La Palette du goût">
             </div>
             <div class="plate_entries_bg">
                 <div class="plate_entries_holder">
@@ -39,56 +39,53 @@
                         <div class="section_title">
                             <h3 class="plate_subtitles">ENTRÉES</h3>
                         </div>
-                            <div class="plate_entries">
-                                <label for="slider-button" class="label">
-                                    <input id="slider-button" type="checkbox">
+                        <div class="plate_entries">
+                            <div class="label" id="label">
                                 <div class="plate_entries_titles_holder">
                                     <h4 class="plate_entries_titles"> Fricassée d'escargots</h4>
                                     <h5 class="plate_entries_subtitles">Au piment d'espelette</h5>
                                 </div>
-                                <div class="price_holder">
-                                    <h4 class="bold">20€</h4>
-                                </div>
                                 <div class="add_to_cart_holder">
-                                    <div id="add_to_cart" class="add_to_cart">
+                                    <div class="price_holder">
+                                        <h4 class="bold">20€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
                                         <i class="fa-solid fa-circle-check"></i>
                                     </div>
                                 </div>
-                            </label>
                             </div>
-                        <div class="plate_entries">
-                            <label for="slider-button2" class="label">
-                                <input id="slider-button2" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Foie gras de canard mi-cuit</h4>
-                                <h5 class="plate_entries_subtitles">Et ses copeaux de truffe noire</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">35€</h4>
-                            </div>
-                            <div class="add_to_cart_holder2">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
-                                </div>
-                            </div>
-                        </label>
                         </div>
                         <div class="plate_entries">
-                            <label for="slider-button3" class="label">
-                                <input id="slider-button3" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Œuf au plat</h4>
-                                <h5 class="plate_entries_subtitles">Assaisonné à la truffe sur lit de caviar</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">20€</h4>
-                            </div>
-                            <div class="add_to_cart_holder3">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label2">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Foie gras de canard mi-cuit</h4>
+                                    <h5 class="plate_entries_subtitles">Et ses copeaux de truffe noire</h5>
+                                </div>
+                                <div class="add_to_cart_holder2">
+                                    <div class="price_holder">
+                                        <h4 class="bold">35€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
+                        </div>
+                        <div class="plate_entries">
+                            <div class="label" id="label3">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Œuf au plat</h4>
+                                    <h5 class="plate_entries_subtitles">Assaisonné à la truffe sur lit de caviar</h5>
+                                </div>
+                                <div class="add_to_cart_holder3">
+                                    <div class="price_holder">
+                                        <h4 class="bold">20€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
                     <div class="section_title">
@@ -96,55 +93,52 @@
                     </div>
                     <section class="section_container">
                         <div class="plate_entries">
-                            <label for="slider-button4" class="label">
-                                <input id="slider-button4" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Filet de bœuf aux herbes</h4>
-                                <h5 class="plate_entries_subtitles">Accompagné de sa ribambelle de légumes</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">40€</h4>
-                            </div>
-                            <div class="add_to_cart_holder4">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label4">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Filet de bœuf aux herbes</h4>
+                                    <h5 class="plate_entries_subtitles">Accompagné de sa ribambelle de légumes</h5>
+                                </div>
+                                <div class="add_to_cart_holder4">
+                                    <div class="price_holder">
+                                        <h4 class="bold">40€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                         <div class="plate_entries">
-                            <label for="slider-button5" class="label">
-                                <input id="slider-button5" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Parmentier de queue de bœuf</h4>
-                                <h5 class="plate_entries_subtitles">À la truffe noire sur sa purée de panais</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">35€</h4>
-                            </div>
-                            <div class="add_to_cart_holder5">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label5">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Parmentier de queue de bœuf</h4>
+                                    <h5 class="plate_entries_subtitles">À la truffe noire sur sa purée de panais</h5>
+                                </div>
+                                <div class="add_to_cart_holder5">
+                                    <div class="price_holder">
+                                        <h4 class="bold">35€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                         <div class="plate_entries">
-                            <label for="slider-button6" class="label">
-                                <input id="slider-button6" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Filet de turbot</h4>
-                                <h5 class="plate_entries_subtitles">Aux agrumes</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">44€</h4>
-                            </div>
-                            <div class="add_to_cart_holder6">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label6">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Filet de turbot</h4>
+                                    <h5 class="plate_entries_subtitles">Aux agrumes</h5>
+                                </div>
+                                <div class="add_to_cart_holder6">
+                                    <div class="price_holder">
+                                        <h4 class="bold">44€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                     </section>
                     <div class="section_title">
@@ -152,55 +146,52 @@
                     </div>
                     <section class="section_container">
                         <div class="plate_entries">
-                            <label for="slider-button7" class="label">
-                                <input id="slider-button7" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Paris-Brest</h4>
-                                <h5 class="plate_entries_subtitles">Revisité</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">40€</h4>
-                            </div>
-                            <div class="add_to_cart_holder7">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label7">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Paris-Brest</h4>
+                                    <h5 class="plate_entries_subtitles">Revisité</h5>
+                                </div>
+                                <div class="add_to_cart_holder7">
+                                    <div class="price_holder">
+                                        <h4 class="bold">40€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                         <div class="plate_entries">
-                            <label for="slider-button8" class="label">
-                                <input id="slider-button8" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Macaron au chocolat d'exception</h4>
-                                <h5 class="plate_entries_subtitles">Et glace à la vanille de madagascar</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">35€</h4>
-                            </div>
-                            <div class="add_to_cart_holder8">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label8">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Macaron au chocolat d'exception</h4>
+                                    <h5 class="plate_entries_subtitles">Et glace à la vanille de madagascar</h5>
+                                </div>
+                                <div class="add_to_cart_holder8">
+                                    <div class="price_holder">
+                                        <h4 class="bold">35€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                         <div class="plate_entries">
-                            <label for="slider-button9" class="label">
-                                <input id="slider-button9" type="checkbox">
-                            <div class="plate_entries_titles_holder">
-                                <h4 class="plate_entries_titles"> Mousse au chocolat</h4>
-                                <h5 class="plate_entries_subtitles">Au piment d'Espelette et à la truffe noire</h5>
-                            </div>
-                            <div class="price_holder">
-                                <h4 class="bold">44€</h4>
-                            </div>
-                            <div class="add_to_cart_holder9">
-                                <div id="add_to_cart" class="add_to_cart">
-                                    <i class="fa-solid fa-circle-check"></i>
+                            <div class="label" id="label9">
+                                <div class="plate_entries_titles_holder">
+                                    <h4 class="plate_entries_titles"> Mousse au chocolat</h4>
+                                    <h5 class="plate_entries_subtitles">Au piment d'Espelette et à la truffe noire</h5>
+                                </div>
+                                <div class="add_to_cart_holder9">
+                                    <div class="price_holder">
+                                        <h4 class="bold">44€</h4>
+                                    </div>
+                                    <div class="add_to_cart">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
                                 </div>
                             </div>
-                        </label>
                         </div>
                     </section>
                     <a href="" class="order_button">Commander</a>
@@ -210,7 +201,7 @@
     </main>
     <footer>
         <div class="logo">
-            <a href="#"><img src="images/logo/ohmyfood@2x.svg"></img></a>
+            <a href="#"><img src="images/logo/ohmyfood@2x.svg" alt="logo OhMyFood"></a>
         </div>
         <ul>
             <li><a href="#"><i class="fa-solid fa-utensils footer_icons"></i> Proposer un restaurant</a>
