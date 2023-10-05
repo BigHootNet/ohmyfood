@@ -164,7 +164,7 @@
     display: flex;
     position: absolute;
     right: 0;
-    width: 75px;
+    width: 55px;
     height: calc(100% + 20px);
     background-color: #99E2D0;
     justify-content: center;
@@ -175,7 +175,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: transform .5s ease;
-    margin-right: -85px;
+    margin-right: -65px;
 }
 
 
@@ -197,7 +197,7 @@
 
 
 .order_button {
-    width: 35vw;
+    width: 120px;
     background: linear-gradient(to bottom, #ff79d9 5%, #9256dc 100%);
     background-color: #ff79d9;
     border-radius: 28px;
@@ -310,7 +310,7 @@
 
 
     .order_button {
-        width: 10vw;
+        width: 120px;
         margin-top: 30px;
         margin-bottom: 40px;
     }
