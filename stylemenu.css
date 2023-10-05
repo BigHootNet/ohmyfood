@@ -39,7 +39,7 @@
     max-height: 50px;
     width: 100%;
     display: flex;
-    padding: 25px 20px 20px 0px;
+    padding: 25px 20px 0px 0px;
     align-items: center;
 }
 
@@ -47,6 +47,7 @@
     font-family: 'Shrikhand', cursive;
     font-size: 29px;
     padding-left: 5vw;
+    font-weight: 400;
 }
 
 .plate_title_container i {
@@ -250,6 +251,7 @@
     .plate_title_container {
         margin-top: 30px;
         justify-content: center;
+        padding: 25px 20px 20px 0px;
     }
 
     .plate_title_container i {
