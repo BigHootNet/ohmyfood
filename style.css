@@ -269,13 +269,17 @@ h3 {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: background-color .3s ease-out;
 }
 
 .fa-heart:hover,
 svg:hover,
 .active {
-    background: rgb(177, 96, 219);
-    background: linear-gradient(180deg, rgba(177, 96, 219, 1) 0%, rgba(226, 119, 220, 1) 100%);
+    background-color: rgb(177, 96, 219);
+    background-color: linear-gradient(180deg, rgba(177, 96, 219, 1) 0%, rgba(226, 119, 220, 1) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -422,7 +426,7 @@ a:visited {
     }
 
     .functioning_item {
-        width: 31%;
+        width: 30%;
         margin-left: 0;
     }
 
