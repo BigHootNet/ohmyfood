@@ -28,7 +28,6 @@ header .logo,
     align-items: center;
     align-content: center;
     justify-content: center;
-    position: relative;
     min-width: 100%;
 }
 
@@ -179,6 +178,10 @@ h3 {
 
 
 .fa-func-color {
+    color: #7E7E7E;
+}
+
+.fa-func-color2 {
     color: #9356DC;
 }
 
@@ -190,7 +193,7 @@ h3 {
     padding: 3px 3px;
     font-size: 14px; 
     left: 0;
-    width: 15px;
+    width: 20px;
     text-align: center;
     margin-left:-15px;
   }
@@ -201,6 +204,7 @@ h3 {
     font-weight: 500;
     margin-left: 0;
   }
+
 
 .restaurants {
     background-color: #F6F6F6;

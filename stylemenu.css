@@ -2,6 +2,7 @@
     position:absolute;
     left: 10px;
     top: 20px;
+    z-index: 99999;
 }
 
 .left_arrow  a{
@@ -133,8 +134,9 @@
 .plate_entries_titles_holder {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
     margin-left: 10px;
+    width: calc( 100% - 50px);
+    transition: width .3s ease;
 }
 
 .plate_entries_titles {
@@ -148,6 +150,7 @@
 }
 
 .plate_entries_subtitles {
+    width: 100%;
     font-size: 15px;
     font-weight: lighter !important;
     white-space: nowrap;
@@ -167,16 +170,7 @@
 }
 
 
-.add_to_cart_holder,
-.add_to_cart_holder2,
-.add_to_cart_holder3,
-.add_to_cart_holder4,
-.add_to_cart_holder5,
-.add_to_cart_holder6,
-.add_to_cart_holder7,
-.add_to_cart_holder8,
-.add_to_cart_holder9,
-.add_to_cart_holder10 {
+.add_to_cart_holder {
     display: flex;
     position: absolute;
     right: 0;
@@ -195,20 +189,15 @@
 }
 
 
-#label:hover .add_to_cart_holder,
-#label2:hover .add_to_cart_holder2,
-#label3:hover .add_to_cart_holder3,
-#label4:hover .add_to_cart_holder4,
-#label5:hover .add_to_cart_holder5,
-#label6:hover .add_to_cart_holder6,
-#label7:hover .add_to_cart_holder7,
-#label8:hover .add_to_cart_holder8,
-#label9:hover .add_to_cart_holder9,
-#label10:hover .add_to_cart_holder10
+.label:hover .add_to_cart_holder
 {
     transform: translateX(-100%);
 }
 
+.label:hover .plate_entries_titles_holder
+{
+    width: calc( 100% - 110px);
+}
 
 
 
@@ -313,6 +302,7 @@
     .plate_entries_titles {
         margin-bottom: 0;
     }
+
 
     .section_container {
         display: flex;
